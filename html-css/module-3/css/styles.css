@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 16px;
+}
+
+.wrapper {
+  max-width: 1200px;
+  width: 100%;
+  margin: auto;
+  padding-top: 70px;
+  padding-bottom: 60px;
+  text-align: center;
+ }
+
+.nav {
+  text-align: center;
+  margin-bottom: 95px;
+}
+
+.nav li {
+  display: inline-block;
+  margin-right: 50px;
+  margin-left: 50px;
+  padding: 5px;
+}
+
+.nav a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+}
+
+.nav a:hover {
+  background-color: lime;
+  color: blue;
+}
+
+.article {
+  display: inline-block;
+  width: 420px;
+  margin-right: 26px;
+  margin-bottom: 120px;
+  margin-left: 30px;
+  padding: 5px;
+  vertical-align: top;
+}
+
+.article-lifestyle {
+  display: inline-block;
+  width: 420px;
+  margin-right: 26px;
+  margin-bottom: 40px;
+  margin-left: 30px;
+  padding: 5px;
+  vertical-align: top;
+}
+
+.article img {
+  margin-bottom: 30px;
+  display: block;
+}
+
+.article h2 {
+  margin-bottom: 40px;
+  display: block;
+  font-size: 30px;
+  text-align: left;
+}
+
+.article span {
+  display: block;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  text-align: left;
+  color: gray;
+}
+
+.article p {
+  text-align: left;
+}
+
+.article-lifestyle img {
+  margin-bottom: 30px;
+  display: block;
+}
+
+.article-lifestyle h2 {
+  margin-bottom: 40px;
+  display: block;
+  font-size: 30px;
+  text-align: left;
+}
+
+.article-lifestyle span {
+  display: block;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  text-align: left;
+  color: gray;
+}
+
+.article-lifestyle p {
+  text-align: left;
+}
+
+input {
+  width: 160px;
+  height: 60px;
+  font-size: 20px;
+  background-color: white;
+}
