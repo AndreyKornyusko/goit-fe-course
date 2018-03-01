@@ -9,13 +9,12 @@ body {
 }
 
 .wrapper {
-  max-width: 1200px;
-  width: 100%;
-  margin: auto;
+  max-width: 900px;
+  margin: 0 auto;
   padding-top: 70px;
   padding-bottom: 60px;
-  text-align: center;
- }
+  font-family: 'Playfair Display', serif;
+}
 
 .nav {
   text-align: center;
@@ -24,13 +23,10 @@ body {
 
 .nav li {
   display: inline-block;
-  margin-right: 50px;
-  margin-left: 50px;
-  padding: 5px;
+  margin-left: 100px;
 }
 
 .nav a {
-  display: block;
   text-decoration: none;
   color: black;
   text-transform: uppercase;
@@ -44,36 +40,44 @@ body {
 .article {
   display: inline-block;
   width: 420px;
-  margin-right: 26px;
   margin-bottom: 120px;
-  margin-left: 30px;
-  padding: 5px;
-  vertical-align: top;
+}
+
+.article-2 {
+  display: inline-block;
+  width: 420px;
+  margin-bottom: 120px;
+  margin-left: 56px;
 }
 
 .article-lifestyle {
   display: inline-block;
   width: 420px;
-  margin-right: 26px;
   margin-bottom: 40px;
-  margin-left: 30px;
-  padding: 5px;
-  vertical-align: top;
 }
 
-.article img {
+.article-lifestyle-2 {
+  display: inline-block;
+  width: 420px;
+  margin-bottom: 40px;
+  margin-left: 56px;
+}
+
+.article img, 
+.article-2 img {
   margin-bottom: 30px;
   display: block;
 }
 
-.article h2 {
+.article h2, 
+.article-2 h2 {
   margin-bottom: 40px;
-  display: block;
   font-size: 30px;
   text-align: left;
 }
 
-.article span {
+.article span, 
+.article-2 span {
   display: block;
   margin-bottom: 30px;
   text-transform: uppercase;
@@ -81,23 +85,26 @@ body {
   color: gray;
 }
 
-.article p {
+.article p, 
+.article-2 p {
   text-align: left;
 }
 
-.article-lifestyle img {
+.article-lifestyle img, 
+.article-lifestyle-2 img {
   margin-bottom: 30px;
   display: block;
 }
 
-.article-lifestyle h2 {
+.article-lifestyle h2, 
+.article-lifestyle-2 h2 {
   margin-bottom: 40px;
-  display: block;
   font-size: 30px;
   text-align: left;
 }
 
-.article-lifestyle span {
+.article-lifestyle span, 
+.article-lifestyle-2 span {
   display: block;
   margin-bottom: 30px;
   text-transform: uppercase;
@@ -105,7 +112,8 @@ body {
   color: gray;
 }
 
-.article-lifestyle p {
+.article-lifestyle p, 
+.article-lifestyle-2 p {
   text-align: left;
 }
 
@@ -114,4 +122,8 @@ input {
   height: 60px;
   font-size: 20px;
   background-color: white;
+  border: 1px solid black;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
 }
