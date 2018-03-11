@@ -1,0 +1,225 @@
+.wrapper {
+  width: 1110px;
+  margin: 0 auto;
+  padding-top: 35px;
+}
+
+.header {
+  margin-bottom: 110px;
+}
+
+.logo a {
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  float: left;
+  text-transform: uppercase;
+  color: #555252;
+  text-decoration: none;
+  text-align: center;
+}
+
+.logo a:first-letter {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 30px;
+  text-transform: uppercase;
+  color: #1abc9c;
+}
+
+.nav {
+  float: right;
+}
+
+.nav a{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  color: #0f0101;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 30px;
+}
+
+.nav a:hover {
+  color: #1abc9c;
+}
+
+.contact,
+.blog,
+.shop,
+.page,
+.about,
+.home {
+  float: left;
+  height: 30px;
+  margin-left: 30px;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.section1 h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #515151;
+  text-align: center;
+  margin-bottom: 92px;
+}
+
+.section1 {
+  margin-bottom: 105px;
+}
+
+.section h2::after {
+  content: "";
+  display: block;
+  width: 164px;
+  height: 7px;
+  backgroud-color: rgb(26,188,156);
+}
+
+.product1,
+.product2,
+.product3,
+.product4,
+.product5,
+.product6,
+.product7,
+.product8 {
+  width: 22.972973%;
+  float: left;
+  background-color: rgb(233,240,253);
+  margin-bottom: 30px;
+}
+
+.product1:hover,
+.product2:hover,
+.product3:hover,
+.product4:hover,
+.product5:hover,
+.product6:hover,
+.product7:hover,
+.product8:hover {
+  background-color: rgb(233,240,253);
+}
+
+.product2,
+.product3,
+.product4,
+.product6,
+.product7,
+.product8 {
+  margin-left: 2.7%;
+}
+
+.name {
+  width: 188px;
+  height: 40px;
+  padding-left: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: left;
+  line-height: 40px;
+  background-color: rgb(50,50,50);
+  float: left;
+}
+
+.name:hover {
+  background-color: rgb(26,188,156);
+}
+
+.price {
+  width: 43px;
+  height: 40px;
+  padding-left: 12px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: rgb(255,255,255);
+  text-align: left;
+  line-height: 40px;
+  background-color: rgb(140,140,140);
+  float: right;
+}
+
+.price:hover {
+  background-color: rgb(127,217,199);
+}
+
+.section2 h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 48px;
+  text-transform: uppercase;
+  color: #555252;
+  text-align: center;
+  margin-bottom: 92px;
+}
+
+.article1,
+.article2,
+.article3 {
+  float: left;
+  width: 31.5315%;
+}
+
+.article2,
+.article3 {
+  margin-left: 2.7027%;
+}
+
+.article1 h4,
+.article2 h4,
+.article3 h4 {
+  display: inline-block;
+  font-size: 18px;
+  font-family: "OpenSans";
+  font-weight: 600;
+  color: rgb(85, 82, 82);
+  line-height: 1.444;
+  margin-bottom: 30px;
+}
+
+  .article1 img,
+  .article2 img,
+  .article3 img {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.article1 p,
+.article2 p,
+.article3 p {
+  display: inline-block;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-family: "OpenSans";
+  color: rgb(85, 82, 82);
+  font-weight: 400;
+  line-height: 1.857;
+}
+
+input {
+  width: 160px;
+  height: 50px;
+  font-size: 20px;
+  background-color: rgb(78,198,171);
+  border-radius: 3px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-family: "Open Sans";
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
