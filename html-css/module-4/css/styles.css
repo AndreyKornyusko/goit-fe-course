@@ -76,8 +76,20 @@
   margin-bottom: 105px;
 }
 
-.section h2::after {
-  content: "";
+.section2 {
+  margin-bottom: 80px;
+}
+
+.section1 h2::after {
+  content: '';
+  display: block;
+  width: 164px;
+  height: 7px;
+  background-color: rgb(26,188,156);
+}
+
+.section2 h2::after {
+  content: '';
   display: block;
   width: 164px;
   height: 7px;
@@ -98,15 +110,26 @@
   margin-bottom: 30px;
 }
 
-.product1:hover,
-.product2:hover,
-.product3:hover,
-.product4:hover,
-.product5:hover,
-.product6:hover,
-.product7:hover,
-.product8:hover {
-  background-color: rgb(233,240,253);
+.product1:hover > .name,
+.product2:hover > .name,
+.product3:hover > .name,
+.product4:hover > .name,
+.product5:hover > .name,
+.product6:hover > .name,
+.product7:hover > .name,
+.product8:hover > .name {
+  background-color: rgb(26,188,156);
+}
+
+.product1:hover > .price,
+.product2:hover > .price,
+.product3:hover > .price,
+.product4:hover > .price,
+.product5:hover > .price,
+.product6:hover > .price,
+.product7:hover > .price,
+.product8:hover > .price {
+  background-color: rgb(127,217,199);
 }
 
 .product2,
@@ -133,10 +156,6 @@
   float: left;
 }
 
-.name:hover {
-  background-color: rgb(26,188,156);
-}
-
 .price {
   width: 43px;
   height: 40px;
@@ -150,10 +169,6 @@
   line-height: 40px;
   background-color: rgb(140,140,140);
   float: right;
-}
-
-.price:hover {
-  background-color: rgb(127,217,199);
 }
 
 .section2 h2 {
@@ -190,6 +205,16 @@
   margin-bottom: 30px;
 }
 
+.article1 h4::after,
+.article2 h4::after,
+.article3 h4::after {
+  content: '';
+  display: block;
+  width: 136px;
+  height: 3px;
+  background-color: rgb(26,188,156);
+}
+
   .article1 img,
   .article2 img,
   .article3 img {
@@ -209,13 +234,11 @@
   line-height: 1.857;
 }
 
-input {
+button {
   width: 160px;
   height: 50px;
-  font-size: 20px;
   background-color: rgb(78,198,171);
-  border-radius: 3px;
-  cursor: pointer;
+  border-radius: 5px;
   display: inline-block;
   font-size: 16px;
   font-family: "Open Sans";
