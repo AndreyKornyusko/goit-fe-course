@@ -1,6 +1,9 @@
 .wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   width: 1920px;
-  margin: 0 auto;
 }
 
 .header {
@@ -8,7 +11,7 @@
   justify-content: space-between;
   align-items: flex-end;
   width: 62.5%;
-  margin: 0 auto;
+  margin-bottom: 110px;
 }
 
 .logo {
@@ -18,6 +21,7 @@
   color: #95e1d3;
   font-weight: 700;
   text-decoration: none;
+  padding-bottom: 15px;
 }
 .nav {
   display: flex;
@@ -46,50 +50,109 @@
   font-weight: 400;
   text-transform: uppercase;
   text-decoration: none;
- }
+  padding-bottom: 15px;
+  border-bottom: solid 3px transparent;
+}
 
 .menu-item a:hover {
   color: #f38181;
+  border-bottom: solid 3px #f38181;
 }
 
 .main {
-  width: 1200px;
-  margin: 0 auto;
+  width: 62.5%;
 }
 
 .section {
-  width: 1200px;
-  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+.section h3 {
+  font-size: 24px;
+  font-family: "Kaushan Script";
+  color: rgb(51, 51, 51);
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .section h2 {
+  height: 30px;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  color: #333333;
+  font-weight: 700;
   text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 100px;
 }
+
+ .section h2::after {
+   content: '';
+   display: block;
+   width: 60px;
+   margin: 40px auto;
+   border-bottom: 3px solid #f38181;
+ }
 
 .section-menu {
   display: flex;
+  height: 240px;
   justify-content: space-around;
+  align-content: space-between;
   flex-wrap: wrap;
 }
 
 .section-menu-item {
   display: flex;
-  flex-basis: 31.667%;
+  flex-basis: 31.75%;
   justify-content: space-around;
 }
 
 .icon {
-  flex-basis: 21.05%;
+  flex-basis: 21.5%;
 }
 
-.section-menu-div {
-  display: flex;
-  font: b 78.68%;
+.section-menu-div h4 {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: rgb(51, 51, 51);
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.section-menu-div p {
+  flex-basis: 60%;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  color: rgb(153, 153, 153);
+  line-height: 1.6;
+  text-align: left;
+  text-decoration: none;
+}
+
+.section-menu-div a {
+  text-decoration: none;
 }
 
 .section-menu a,
 .icon {
   display: block;
+}
+
+.section-p {
+  display: block;
+  margin: 0 auto 95px auto;
+  width: 79.17%;
+  font-size: 15px;
+  font-family: "Roboto", sans-serif;
+  color: #999999;
+  line-height: 1.6;
+  text-align: center;
 }
 
 .galery {
@@ -111,6 +174,7 @@
   height: 470px;
   transition-property: box-shadow, transform;
   transition-duration: 200ms;
+  margin-bottom: 30px;
 }
 
 .img img {
@@ -136,7 +200,6 @@
   justify-content: center;
   width: 225px;
   height: 56px;
-  /* background-color: #f9bd87; */
   z-index: 2;
 }
 
@@ -174,3 +237,85 @@
   display: flex;
 }
 
+.name {
+  font-size: 14px;
+  font-family: "Montserrat, sans-serif";
+  color: rgb(51, 51, 51);
+  text-transform: uppercase;
+  line-height: 1.2;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.specialty {
+  font-size: 15px;
+  font-family: "Roboto";
+  color: rgb(153, 153, 153);
+  font-style: italic;
+  font-weight: 300;
+  line-height: 1.6;
+  text-align: center;
+}
+
+.mastfooter {
+  display: flex;
+  width: 62.5%;
+  height: 63px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main::after {
+  content: '';
+  display: block;
+  border-bottom: solid 1px #e5e5e5;
+}
+
+.mastfooter div {
+  font-size: 14px;
+  font-family: "Montserrat, sans-serif";
+  color: rgb(51, 51, 51);
+  font-weight: 400;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.mastfooter a {
+  font-size: 14px;
+  font-family: "Montserrat, sans-serif";
+  color: #f38181;
+  font-weight: 400;
+  line-height: 1.2;
+  text-decoration: none;
+}
+
+.wrap-form {
+  flex-basis: 31.66%;
+  display: flex;
+  height: 40px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrap-form form {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+input[type="text"] {
+  width: 60%;
+  height: 100%;
+  border: solid ipx #e7e7e7;
+  border-right: transparent;
+  box-shadow: none;
+}
+
+input[type="submit"] {
+  width: 40%;
+  height: 100%;
+  background-color: #95e1d3;
+}
