@@ -127,7 +127,7 @@
 }
 
 .section-menu-div p {
-  flex-basis: 60%;
+  width: 90%;
   font-size: 15px;
   font-family: "Roboto", sans-serif;
   color: rgb(153, 153, 153);
