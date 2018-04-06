@@ -4,8 +4,13 @@
   padding-top: 35px;
 }
 
+.head-wrapper {
+  width: 1110px;
+  margin: 0 auto;
+}
+
 .logo {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 30px;
   font-weight: 300;
   float: left;
@@ -13,11 +18,10 @@
   color: #555252;
   text-decoration: none;
   text-align: center;
-  margin-left: 240px;
 }
 
 .logo:first-letter {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 30px;
   text-transform: uppercase;
@@ -26,12 +30,11 @@
 
 .menu {
   float: right;
-  margin-right: 240px;
   margin-bottom: 30px;
 }
 
 .menu a {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 14px;
   font-weight: 900;
   color: #0f0101;
@@ -48,7 +51,7 @@
   float: left;
   height: 30px;
   margin-right: 30px;
-} 
+}
 
 .item:last-child {
   margin: 0;
@@ -62,13 +65,14 @@
 
 .slider {
   position: relative;
+  margin-bottom: 100px;
 }
 
 .slider h2 {
   position: absolute;
   top: 215px;
   left: 410px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 60px;
   text-transform: uppercase;
@@ -82,7 +86,7 @@
   position: absolute;
   top: 300px;
   left: 410px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 300;
   font-size: 24px;
   text-transform: uppercase;
@@ -113,7 +117,7 @@
   left: 245px;
 }
 
-.gallery {
+.main {
   margin: 0 auto;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -121,7 +125,7 @@
 }
 
 .section h2 {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 48px;
   text-transform: uppercase;
@@ -136,9 +140,9 @@
 }
 
 .section h2::after {
-  content: '';
+  content: "";
   display: block;
-  border-bottom: solid 7px rgb(26,188,156);
+  border-bottom: solid 7px rgb(26, 188, 156);
   width: 164px;
   margin: 30px auto 0;
 }
@@ -148,21 +152,21 @@
   width: 255px;
   min-height: 320px;
   float: left;
-  background-color: rgb(233,240,253);
+  background-color: rgb(233, 240, 253);
   margin-bottom: 30px;
   margin-right: 2.7%;
 }
 
-.product:nth-child(4n+1) {
+.product:nth-child(4n + 1) {
   margin: 0px;
 }
 
 .product:hover > .name {
-  background-color: rgb(26,188,156);
+  background-color: rgb(26, 188, 156);
 }
 
 .product:hover > .price {
-  background-color: rgb(127,217,199);
+  background-color: rgb(127, 217, 199);
 }
 
 .product:hover > .arrow {
@@ -183,7 +187,7 @@
 
 .product:hover > .buy {
   display: block;
-  opacity: 0.5;
+  opacity: 0.55;
 }
 
 .product:hover > .cart:hover,
@@ -193,6 +197,15 @@
   border: 0;
 }
 
+ .wrapper-buy { 
+  top: 0px;
+  left: 0;
+  position: relative;
+  width: 255px;
+  height: 321px;
+  background-color: #fff;
+}
+
 .buy {
   display: none;
   position: absolute;
@@ -200,13 +213,7 @@
   right: 10px;
   width: 235px;
   height: 261px;
-  background-color:rgb(00,00,00);
-}
-
-.category {
-  position: absolute;
-  top: 0;
-  left: 0;
+  background-color: rgb(00, 00, 00);
 }
 
 .like,
@@ -238,7 +245,7 @@
   width: 50px;
   height: 50px;
   border: solid 1px #ffffff;
-  background-color:rgb(26,188,156);
+  background-color: rgb(26, 188, 156);
   color: #ffffff;
 }
 
@@ -262,13 +269,10 @@
 
 .name {
   display: inline-block;
-  position: absolute;
-  bottom: 0;
-  left: 0;
   width: 188px;
   height: 40px;
   padding-left: 12px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 18px;
   text-transform: uppercase;
@@ -276,25 +280,23 @@
   color: #ffffff;
   text-align: left;
   line-height: 40px;
-  background-color: rgb(50,50,50);
+  background-color: rgb(50, 50, 50);
 }
 
 .price {
   display: inline-block;
-  position: absolute;
-  right: 0;
-  bottom: 0;
   width: 43px;
   height: 40px;
   padding-left: 12px;
-  font-family: 'Roboto', sans-serif;
+  margin-left: -4px;
+  font-family: "Roboto", sans-serif;
   font-weight: 900;
   font-size: 18px;
   text-transform: uppercase;
-  color: rgb(255,255,255);
+  color: rgb(255, 255, 255);
   text-align: left;
   line-height: 40px;
-  background-color: rgb(140,140,140);
+  background-color: rgb(140, 140, 140);
 }
 
 .footer {
