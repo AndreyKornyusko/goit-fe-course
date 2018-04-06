@@ -14,7 +14,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  background-color: rgb(107, 102, 160);
+  background-color: #fff;
 }
 
 .header {
@@ -50,6 +50,11 @@
   text-transform: uppercase;
   text-align: center;
   text-decoration: none;
+  font-weight: 400;
+}
+
+.item-menu a:hover {
+  color: #fed136;
 }
 
 .main {
@@ -67,7 +72,7 @@
   font-size: 40px;
   font-family: "Montserrat";
   color: rgb(34, 34, 34);
-  font-weight: bold;
+  font-weight: 700;
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 20px;
@@ -98,7 +103,7 @@
   font-size: 18px;
   font-family: "Montserrat";
   color: rgb(34, 34, 34);
-  font-weight: bold;
+  font-weight: 700;
   margin-bottom: 18px;
 }
 
@@ -108,6 +113,7 @@
   color: rgb(119, 119, 119);
   line-height: 1.2;
   text-align: center;
+  text-indent: 20px;
 }
 
 .icon-wrap {
@@ -131,13 +137,12 @@ h4 {
   display: flex;
   width: 1400px;
   justify-content: center;
-  /* background: #000 url(http://dl4.joxi.net/drive/2018/03/31/0028/2346/1898794/94/c1e57c2490.jpg) center no-repeat contain; */
   background-color: #222222;
-  background-image: url(../images/map.png);
+  background-image: url(../images/map1.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  height: 676px;
+  /* height: 676px; */
 }
 
 .footer {
@@ -155,12 +160,101 @@ h4 {
   font-weight: bold;
   text-transform: uppercase;
   padding-top: 110px;
+  margin-bottom: 24px;
 }
 
 .footer h4 {
   font-size: 16px;
-  font-family: "DroidSerif";
+  font-family: "Lato", sans-serif;
   color: rgb(119, 119, 119);
   font-style: italic;
   text-align: center;
+  margin-bottom: 75px;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  border: solid 1px #7d7d7d;
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: "Montserrat";
+  color: rgb(187, 187, 187);
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: left;
+  padding-left: 20px;
+}
+
+input[name="name"] {
+  width: 455px;
+  height: 52px;
+  margin-bottom: 27px;
+}
+
+input[name="subject"] {
+  width: 455px;
+  height: 52px;
+}
+
+input[type="mail"] {
+  width: 455px;
+  height: 52px;
+  margin-bottom: 27px;
+}
+
+textarea {
+  display: block;
+  float: right;
+  width: 455px;
+  height: 212px;
+  box-sizing: border-box;
+  padding-top: 18px;
+}
+
+input[type="submit"] {
+  width: 240px;
+  height: 65px;
+  border: 0;
+  background-color: #fed136;
+  font-size: 18px;
+  font-family: "Montserrat";
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  width: 940px;
+  height: 305px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 114px;
+}
+
+.area {
+  display: block;
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* flex-wrap: nowrap; */
+  width: 940px;
+  height: 212px;
+  /* vertical-align: top; */
+}
+
+.input {
+  /* display: block; */
+  display: flex;
+  float: left;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 455px;
+  height: 212px;
+  margin: 0;
+  /* align-content: flex-start; */
 }
