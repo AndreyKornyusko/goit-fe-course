@@ -239,16 +239,17 @@ form {
 
 .area {
   display: block;
-  /* display: flex; */
-  /* justify-content: space-between; */
-  /* flex-wrap: nowrap; */
   width: 940px;
   height: 212px;
-  /* vertical-align: top; */
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .input {
-  /* display: block; */
   display: flex;
   float: left;
   flex-direction: column;
@@ -256,5 +257,4 @@ form {
   width: 455px;
   height: 212px;
   margin: 0;
-  /* align-content: flex-start; */
 }
