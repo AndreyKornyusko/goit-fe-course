@@ -1,5 +1,6 @@
 .wrapper {
   width: 100vw;
+  /* max-width: 1400px; */
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -29,6 +30,7 @@
   font-size: 26px;
   color: #fed136;
   text-align: left;
+  /* font-weight: 700; */
 }
 
 .nav {
@@ -50,7 +52,7 @@
   text-transform: uppercase;
   text-align: center;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .item-menu a:hover {
@@ -197,7 +199,7 @@ input[name="subject"] {
   height: 52px;
 }
 
-input[type="mail"] {
+input[type="email"] {
   width: 455px;
   height: 52px;
   margin-bottom: 27px;
@@ -207,7 +209,7 @@ input:required:valid {
   outline: 1px solid rgb(0,255,0);
 }
 
-input:required:invalid {
+input:required:invalid:active {
   outline: 1px solid rgb(255,0,0);
 }
 
@@ -224,7 +226,7 @@ textarea:required:valid {
   outline: 1px solid rgb(0,255,0);
 }
 
-textarea:required:invalid {
+textarea:required:invalid:active {
   outline: 1px solid rgb(255,0,0);
 }
 
@@ -240,6 +242,12 @@ input[type="submit"] {
   text-transform: uppercase;
   line-height: 1.2;
   text-align: center;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #fed176;
+  color: rgb(236, 255, 150);
 }
 
 form {
@@ -271,5 +279,4 @@ form {
   justify-content: space-between;
   width: 455px;
   height: 212px;
-  margin: 0;
 }
