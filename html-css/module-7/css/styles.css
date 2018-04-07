@@ -142,7 +142,6 @@ h4 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
-  /* height: 676px; */
 }
 
 .footer {
@@ -204,6 +203,14 @@ input[type="mail"] {
   margin-bottom: 27px;
 }
 
+input:required:valid {
+  outline: 1px solid rgb(0,255,0);
+}
+
+input:required:invalid {
+  outline: 1px solid rgb(255,0,0);
+}
+
 textarea {
   display: block;
   float: right;
@@ -211,6 +218,14 @@ textarea {
   height: 212px;
   box-sizing: border-box;
   padding-top: 18px;
+}
+
+textarea:required:valid {
+  outline: 1px solid rgb(0,255,0);
+}
+
+textarea:required:invalid {
+  outline: 1px solid rgb(255,0,0);
 }
 
 input[type="submit"] {
