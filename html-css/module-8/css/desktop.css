@@ -1,0 +1,28 @@
+@media screen and (min-width: 1440px) {
+  .wrapper {
+    min-width: 1440px;
+    max-width: 1440px;
+    
+    margin: 0 auto;
+  }
+
+  .head-main {
+    width: 1440px;
+    background-image: url(../images/desktop.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    margin-bottom: 4.375rem;
+  }
+
+  .header {
+    display: flex;
+    width: 87.24%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2.2rem;
+    margin-bottom: 156px;
+  }
+
+  
+}

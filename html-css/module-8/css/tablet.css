@@ -1,0 +1,81 @@
+@media screen and (min-width: 768px) {
+  .wrapper {
+    min-width: 768px;
+    margin: 0 auto;
+  }
+
+  .head-main {
+    width: 768px;
+    background-image: url(../images/tablet.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    margin-bottom: 4.375rem;
+  }
+
+  .header {
+    display: flex;
+    width: 87.24%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2.2rem;
+    margin-bottom: 156px;
+  }
+
+  .login {
+    width: 175px;
+    padding-top: 0;
+    margin-bottom: 0;
+    order: 1;
+    margin: 0;
+  }
+
+  .logo {
+    margin-bottom: 0;
+  }
+
+  .section {
+    padding-bottom: 230px;
+  }
+
+  .section h2 {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 52px;
+    font-family: "Montserrat";
+  }
+
+  .section a {
+    width: 225px;
+  }
+
+  .section span {
+    font-size: 24px;
+  }
+
+  .footer {
+    width: 768px;
+  }
+
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    width: 61.19%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/*  .gallery:nth-of-type(2) .gallery-item {
+    order: 2;
+  }
+
+  .gallery:nth-of-type(4) .gallery-item {
+    order: 2;
+  }*/
+
+  .other-partn {
+    width: 225px;
+    margin-bottom: 2.5rem;
+  }
+}
