@@ -4,7 +4,7 @@
     margin: 0 auto;
   }
 
-  .head-main {
+  .wrapper .head-main {
     width: 768px;
     background-image: url(../images/tablet.jpg);
     background-size: cover;

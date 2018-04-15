@@ -5,9 +5,9 @@
     margin: 0 auto;
   }
 
-  .head-main {
+  body .wrapper .head-main {
     width: 1440px;
-    background-image: url(../images/Desktop.jpg);
+    background-image: url(../images/desktop.jpg);
     background-size: cover;
     margin: 0 auto;
     margin-bottom: 4.375rem;
