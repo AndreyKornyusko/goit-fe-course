@@ -4,7 +4,7 @@
     margin: 0 auto;
   }
 
-  body .wrapper .head-main {
+  .head-main {
     width: 768px;
     background-image: url(../images/tablet.jpg);
     background-size: cover;
@@ -70,8 +70,6 @@
     margin-right: auto;
     margin-bottom: 1.875rem;
   }
-
- 
 
   .gallery-item:nth-child(2) {
     order: 2;

@@ -5,7 +5,7 @@
     margin: 0 auto;
   }
 
-  .wrapper .head-main {
+  .head-main {
     width: 1440px;
     background-image: url(../images/desktop.jpg);
     background-size: cover;
