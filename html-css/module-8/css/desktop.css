@@ -1,8 +1,7 @@
 @media screen and (min-width: 1440px) {
   .wrapper {
-    min-width: 1440px;
-    max-width: 1440px;
-    
+    /* min-width: 1440px; */
+    /* max-width: 1440px; */
     margin: 0 auto;
   }
 
@@ -16,13 +15,28 @@
 
   .header {
     display: flex;
-    width: 87.24%;
-    margin: 0 auto;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 2.2rem;
-    margin-bottom: 156px;
+    width: 65.27%;
   }
 
-  
+  .footer {
+    width: 1440px;
+  }
+
+  .footer h3 {
+    margin-bottom: 2.125rem;
+  }
+
+  .gallery {
+    width: 65.27%;
+    margin-bottom: 2.125rem;
+  }
+
+  .gallery .gallery-item {
+    margin-bottom: 0;
+  }
+
+  .other-partn {
+    width: 190px;
+    margin-bottom: 4.6875rem;
+  }
 }

@@ -1,6 +1,6 @@
 @media screen and (min-width: 768px) {
   .wrapper {
-    min-width: 768px;
+    /* min-width: 768px; */
     margin: 0 auto;
   }
 
@@ -58,21 +58,32 @@
     width: 768px;
   }
 
+  .footer h3 {
+    margin-bottom: 1.875rem;
+  }
+
   .gallery {
     display: flex;
     flex-wrap: wrap;
     width: 61.19%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 1.875rem;
   }
 
-/*  .gallery:nth-of-type(2) .gallery-item {
+ 
+
+  .gallery-item:nth-child(2) {
     order: 2;
   }
 
-  .gallery:nth-of-type(4) .gallery-item {
+  .gallery-item:nth-child(4) {
     order: 2;
-  }*/
+  }
+
+  .gallery-item:nth-child(odd) {
+    margin-bottom: 3.125rem;
+  }
 
   .other-partn {
     width: 225px;
