@@ -1,0 +1,46 @@
+@media screen and (min-width: 1440px) {
+  .wrapper {
+    /* max-width: 1440px; */
+    margin: 0 auto;
+  }
+
+  .top-wrap {
+    width: 1440px;
+    background-image: url(../images/desktop.jpg);
+    background-size: cover;
+    /* margin: 0 auto; */
+    margin-bottom: 4.375rem;
+  }
+
+  .head-main {
+    width: 65.27777777%;
+  }
+
+ .header {
+  padding: 0;
+  }
+
+   .section-bottom {
+    width: 65.27777777%;
+    padding-bottom: 4.6875rem;
+  }
+  .section-bottom h3 {
+    margin-bottom: 2.125rem;
+  }
+
+  .gallery {
+    margin-bottom: 2.125rem;
+  }
+
+  .gallery .gallery-item {
+    margin-bottom: 0;
+  }
+
+  .gallery-item a {
+    width: 220px;
+  }
+
+  .other-partn {
+    width: 190px;
+  }
+}
