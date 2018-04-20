@@ -8,21 +8,32 @@
     width: 1440px;
     background-image: url(../images/desktop.jpg);
     background-size: cover;
-    /* margin: 0 auto; */
+    margin: 0 auto;
     margin-bottom: 4.375rem;
   }
 
   .head-main {
     width: 65.27777777%;
+    margin: 0 auto;
   }
 
  .header {
-  padding: 0;
+  padding-right: 0;
+  padding-left: 0;
+  }
+
+  .login {
+    justify-content: flex-end;
+  }
+
+  .logo {
+    text-align: left;
   }
 
    .section-bottom {
     width: 65.27777777%;
     padding-bottom: 4.6875rem;
+    margin: 0 auto;
   }
   .section-bottom h3 {
     margin-bottom: 2.125rem;
