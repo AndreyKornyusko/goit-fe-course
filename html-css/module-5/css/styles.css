@@ -105,6 +105,7 @@
   color: #ffffff;
   font-weight: 300;
   border: 0;
+  cursor: pointer;
 }
 
 .right {
@@ -197,7 +198,7 @@
   border: 0;
 }
 
- .wrapper-buy { 
+.wrapper-buy {
   top: 0px;
   left: 0;
   position: relative;
@@ -269,7 +270,7 @@
 
 .name {
   display: inline-block;
-  width: 188px;
+  width: 200px;
   height: 40px;
   padding-left: 12px;
   font-family: "Roboto", sans-serif;
@@ -285,7 +286,7 @@
 
 .price {
   display: inline-block;
-  width: 43px;
+  width: 55px;
   height: 40px;
   padding-left: 12px;
   margin-left: -4px;
