@@ -23,20 +23,20 @@
     1.2,
     center
   );
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .section__title {
   height: 30px;
-  @include text-property($title-font, 30px, 700, $title-text-color, 2, center);
+  @include text-property($title-font, 30px, 700, $title-text-color, 1, center);
   text-transform: uppercase;
-  margin-bottom: 100px;
+  margin-bottom: 90px;
   &::after {
     content: "";
     display: block;
     width: 60px;
     margin: 40px auto;
-    border-bottom: 3px solid text-decor-color;
+    border-bottom: 3px solid $text-decor-color;
   }
 }
 

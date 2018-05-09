@@ -375,6 +375,15 @@ template {
   display: none;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
 .main-wrapper {
   max-width: 1920px;
   width: 100%;
@@ -552,7 +561,7 @@ template {
   color: #333333;
   line-height: 1.2;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .section__title {
@@ -561,10 +570,10 @@ template {
   font-size: 30px;
   font-weight: 700;
   color: #333333;
-  line-height: 2;
+  line-height: 1;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 100px;
+  margin-bottom: 90px;
 }
 
 .section__title::after {
@@ -572,7 +581,7 @@ template {
   display: block;
   width: 60px;
   margin: 40px auto;
-  border-bottom: 3px solid text-decor-color;
+  border-bottom: 3px solid #f38181;
 }
 
 .menu {
