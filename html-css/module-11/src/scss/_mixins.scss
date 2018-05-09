@@ -1,0 +1,8 @@
+@mixin text-property($font, $size, $weight, $color, $line-h, $text-al) {
+  font-family: $font;
+  font-size: $size;
+  font-weight: $weight;
+  color: $color;
+  line-height: $line-h;
+  text-align: $text-al;
+}

@@ -1,0 +1,168 @@
+.main-wrapper {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-bottom: 155px;
+}
+
+.head-wrapper {
+  position: relative;
+  width: 1920px;
+  height: 1000px;
+  margin: 0 auto;
+  background-image: url(../img/eagle.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1920px;
+    height: 1000px;
+    background-image: linear-gradient(#f38181, #fce38a);
+    opacity: 0.9;
+  }
+}
+
+.wrap {
+  width: 1200px;
+  margin: 0 auto;
+  padding-top: 25px;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .head-wrapper {
+    background-image: url(../img/eagle@2x.jpg);
+    background-repeat: no-repeat;
+  }
+}
+
+.header__logo {
+  display: block;
+  position: relative;
+  @include text-property(
+    $logo-font,
+    30px,
+    700,
+    $main-head-text-color,
+    1.5,
+    left
+  );
+  text-decoration: none;
+  padding-bottom: 15px;
+  z-index: 2;
+}
+
+.header__nav {
+  display: flex;
+  flex-basis: 620px;
+  justify-content: space-between;
+}
+
+.header__menu {
+  display: flex;
+  flex-basis: 100%;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+.header__item {
+  display: flex;
+}
+
+.header__link {
+  display: block;
+  position: relative;
+  @include text-property(
+    $nav-font,
+    14px,
+    400,
+    $main-head-text-color,
+    1.2,
+    right
+  );
+  text-transform: uppercase;
+  text-decoration: none;
+  padding-bottom: 15px;
+  border-bottom: solid 3px transparent;
+  z-index: 2;
+  &--hover:hover {
+    color: $nav-hover-text-color;
+    border-bottom: solid 3px $nav-hover-text-color;
+  }
+}
+
+.header__svg {
+  display: block;
+  position: relative;
+  width: 16px;
+  height: 16px;
+  fill: $main-head-text-color;
+  z-index: 2;
+  &--hover:hover {
+    fill: $nav-hover-text-color;
+  }
+}
+
+.head-section__button {
+  display: block;
+  position: relative;
+  width: 160px;
+  height: 40px;
+  margin: 0 auto;
+  text-align: center;
+  @include text-property(
+    $button-font,
+    14px,
+    700,
+    $text-button-color,
+    40px,
+    center
+  );
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 3px solid $bord-button-color;
+  z-index: 2;
+}
+
+.head-section__name {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  @include text-property(
+    $title-decor-font,
+    72px,
+    400,
+    $main-head-text-color,
+    1.2,
+    center
+  );
+  margin-bottom: 20px;
+  z-index: 2;
+}
+
+.head-section__title {
+  position: relative;
+  @include text-property(
+    $title-font,
+    150px,
+    700,
+    $main-head-text-color,
+    0.933,
+    center
+  );
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 105px;
+  padding: 0 160px;
+  z-index: 2;
+}
