@@ -1,5 +1,5 @@
 .main-wrapper {
-  max-width: 1920px;
+  max-width: rem(1920);
   width: 100%;
   margin: 0 auto;
 }
@@ -8,35 +8,35 @@
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  margin-bottom: 155px;
+  margin-bottom: rem(155);
 }
 
 .head-wrapper {
   position: relative;
-  width: 1920px;
-  height: 1000px;
+  width: rem(1920);
+  height: rem(1000);
   margin: 0 auto;
   background-image: url(../img/eagle.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  margin-bottom: 50px;
+  margin-bottom: rem(50);
 
   &::after {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
-    width: 1920px;
-    height: 1000px;
+    width: rem(1920);
+    height: rem(1000);
     background-image: linear-gradient(#f38181, #fce38a);
     opacity: 0.9;
   }
 }
 
 .wrap {
-  width: 1200px;
+  width: rem(1200);
   margin: 0 auto;
-  padding-top: 25px;
+  padding-top: rem(25);
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
@@ -51,20 +51,20 @@
   position: relative;
   @include text-property(
     $logo-font,
-    30px,
+    rem(30),
     700,
     $main-head-text-color,
     1.5,
     left
   );
   text-decoration: none;
-  padding-bottom: 15px;
+  padding-bottom: rem(15);
   z-index: 2;
 }
 
 .header__nav {
   display: flex;
-  flex-basis: 620px;
+  flex-basis: rem(620);
   justify-content: space-between;
 }
 
@@ -84,7 +84,7 @@
   position: relative;
   @include text-property(
     $nav-font,
-    14px,
+    rem(14),
     400,
     $main-head-text-color,
     1.2,
@@ -92,20 +92,20 @@
   );
   text-transform: uppercase;
   text-decoration: none;
-  padding-bottom: 15px;
-  border-bottom: solid 3px transparent;
+  padding-bottom:rem(15);
+  border-bottom: solid rem(3) transparent;
   z-index: 2;
   &--hover:hover {
     color: $nav-hover-text-color;
-    border-bottom: solid 3px $nav-hover-text-color;
+    border-bottom: solid rem(3) $nav-hover-text-color;
   }
 }
 
 .header__svg {
   display: block;
   position: relative;
-  width: 16px;
-  height: 16px;
+  width: rem(15);
+  height: rem(16);
   fill: $main-head-text-color;
   z-index: 2;
   &--hover:hover {
@@ -116,21 +116,21 @@
 .head-section__button {
   display: block;
   position: relative;
-  width: 160px;
-  height: 40px;
+  width: rem(160);
+  height: rem(40);
   margin: 0 auto;
   text-align: center;
   @include text-property(
     $button-font,
-    14px,
+    rem(14),
     700,
     $text-button-color,
-    40px,
+    rem(40),
     center
   );
   text-transform: uppercase;
   text-decoration: none;
-  border: 3px solid $bord-button-color;
+  border: rem(3) solid $bord-button-color;
   z-index: 2;
 }
 
@@ -140,13 +140,13 @@
   margin: 0 auto;
   @include text-property(
     $title-decor-font,
-    72px,
+    rem(72),
     400,
     $main-head-text-color,
     1.2,
     center
   );
-  margin-bottom: 20px;
+  margin-bottom: rem(20);
   z-index: 2;
 }
 
@@ -154,7 +154,7 @@
   position: relative;
   @include text-property(
     $title-font,
-    150px,
+    rem(150),
     700,
     $main-head-text-color,
     0.933,
@@ -162,7 +162,7 @@
   );
   text-transform: uppercase;
   margin-top: 0;
-  margin-bottom: 105px;
-  padding: 0 160px;
+  margin-bottom: rem(105);
+  padding: 0 rem(160);
   z-index: 2;
 }

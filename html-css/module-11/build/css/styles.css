@@ -384,8 +384,12 @@ h6 {
   margin: 0;
 }
 
+:root {
+  font-size: 62.5%;
+}
+
 .main-wrapper {
-  max-width: 1920px;
+  max-width: 192rem;
   width: 100%;
   margin: 0 auto;
 }
@@ -394,18 +398,18 @@ h6 {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
-  margin-bottom: 155px;
+  margin-bottom: 15.5rem;
 }
 
 .head-wrapper {
   position: relative;
-  width: 1920px;
-  height: 1000px;
+  width: 192rem;
+  height: 100rem;
   margin: 0 auto;
   background-image: url(../img/eagle.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  margin-bottom: 50px;
+  margin-bottom: 5rem;
 }
 
 .head-wrapper::after {
@@ -413,35 +417,35 @@ h6 {
   position: absolute;
   top: 0;
   left: 0;
-  width: 1920px;
-  height: 1000px;
+  width: 192rem;
+  height: 100rem;
   background-image: linear-gradient(#f38181, #fce38a);
   opacity: 0.9;
 }
 
 .wrap {
-  width: 1200px;
+  width: 120rem;
   margin: 0 auto;
-  padding-top: 25px;
+  padding-top: 2.5rem;
 }
 
 .header__logo {
   display: block;
   position: relative;
   font-family: "Montserrat", sans-serif;
-  font-size: 30px;
+  font-size: 3rem;
   font-weight: 700;
   color: #ffffff;
   line-height: 1.5;
   text-align: left;
   text-decoration: none;
-  padding-bottom: 15px;
+  padding-bottom: 1.5rem;
   z-index: 2;
 }
 
 .header__nav {
   display: flex;
-  flex-basis: 620px;
+  flex-basis: 62rem;
   justify-content: space-between;
 }
 
@@ -460,28 +464,28 @@ h6 {
   display: block;
   position: relative;
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 400;
   color: #ffffff;
   line-height: 1.2;
   text-align: right;
   text-transform: uppercase;
   text-decoration: none;
-  padding-bottom: 15px;
-  border-bottom: solid 3px transparent;
+  padding-bottom: 1.5rem;
+  border-bottom: solid 0.3rem transparent;
   z-index: 2;
 }
 
 .header__link--hover:hover {
   color: #fce38a;
-  border-bottom: solid 3px #fce38a;
+  border-bottom: solid 0.3rem #fce38a;
 }
 
 .header__svg {
   display: block;
   position: relative;
-  width: 16px;
-  height: 16px;
+  width: 1.5rem;
+  height: 1.6rem;
   fill: #ffffff;
   z-index: 2;
 }
@@ -493,19 +497,19 @@ h6 {
 .head-section__button {
   display: block;
   position: relative;
-  width: 160px;
-  height: 40px;
+  width: 16rem;
+  height: 4rem;
   margin: 0 auto;
   text-align: center;
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 700;
   color: #ffffff;
-  line-height: 40px;
+  line-height: 4rem;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
-  border: 3px solid #ffffff;
+  border: 0.3rem solid #ffffff;
   z-index: 2;
 }
 
@@ -514,74 +518,74 @@ h6 {
   position: relative;
   margin: 0 auto;
   font-family: "Kaushan Script";
-  font-size: 72px;
+  font-size: 7.2rem;
   font-weight: 400;
   color: #ffffff;
   line-height: 1.2;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
   z-index: 2;
 }
 
 .head-section__title {
   position: relative;
   font-family: "Montserrat", sans-serif;
-  font-size: 150px;
+  font-size: 15rem;
   font-weight: 700;
   color: #ffffff;
   line-height: 0.933;
   text-align: center;
   text-transform: uppercase;
   margin-top: 0;
-  margin-bottom: 105px;
-  padding: 0 160px;
+  margin-bottom: 10.5rem;
+  padding: 0 16rem;
   z-index: 2;
 }
 
 .main {
-  width: 1200px;
+  width: 120rem;
   margin: 0 auto;
 }
 
 .section {
-  margin-bottom: 80px;
+  margin-bottom: 8rem;
   margin: 0 auto;
 }
 
 .section--big-padd {
-  padding-bottom: 85px;
+  padding-bottom: 8.5rem;
 }
 
 .section__name {
   display: block;
   margin: 0 auto;
   font-family: "Kaushan Script";
-  font-size: 24px;
+  font-size: 2.4rem;
   font-weight: 400;
   color: #333333;
   line-height: 1.2;
   text-align: center;
-  margin-bottom: 16px;
+  margin-bottom: 1.6rem;
 }
 
 .section__title {
-  height: 30px;
+  height: 3rem;
   font-family: "Montserrat", sans-serif;
-  font-size: 30px;
+  font-size: 3rem;
   font-weight: 700;
   color: #333333;
   line-height: 1;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 90px;
+  margin-bottom: 9rem;
 }
 
 .section__title::after {
   content: "";
   display: block;
-  width: 60px;
-  margin: 40px auto;
-  border-bottom: 3px solid #f38181;
+  width: 6rem;
+  margin: 4rem auto;
+  border-bottom: 0.3rem solid #f38181;
 }
 
 .menu {
@@ -590,36 +594,36 @@ h6 {
   align-content: space-between;
   flex-wrap: wrap;
   padding-left: 0;
-  margin-bottom: 90px;
+  margin-bottom: 9rem;
 }
 
 .menu__item {
   display: flex;
-  flex-basis: 400px;
+  flex-basis: 40rem;
   align-items: flex-start;
   justify-content: space-between;
 }
 
 .menu__item--big-marg {
-  margin-bottom: 90px;
+  margin-bottom: 9rem;
 }
 
 .menu__icon {
   display: flex;
-  flex-basis: 80px;
+  flex-basis: 8rem;
   justify-content: center;
 }
 
 .menu__svg {
   display: block;
-  width: 32px;
-  height: 32px;
+  width: 3.2rem;
+  height: 3.2rem;
   fill: #95e1d3;
 }
 
 .menu__title {
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 400;
   color: #333333;
   line-height: 1.2;
@@ -627,13 +631,13 @@ h6 {
   text-transform: uppercase;
   text-decoration: none;
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 1.5rem;
 }
 
 .menu__text {
   width: 90%;
   font-family: "Roboto", sans-serif;
-  font-size: 15px;
+  font-size: 1.5rem;
   font-weight: 400;
   color: #999999;
   line-height: 1.6;
@@ -642,15 +646,15 @@ h6 {
 }
 
 .menu__wrap {
-  padding-left: 10px;
+  padding-left: 1rem;
 }
 
 .section__text {
   display: block;
-  margin: 0 auto 95px auto;
+  margin: 0 auto 9.5rem auto;
   width: 79.17%;
   font-family: "Roboto", sans-serif;
-  font-size: 15px;
+  font-size: 1.5rem;
   font-weight: 400;
   color: #999999;
   line-height: 1.6;
@@ -667,7 +671,7 @@ h6 {
 .gallery__item {
   display: flex;
   flex-direction: column;
-  flex-basis: 380px;
+  flex-basis: 38rem;
 }
 
 .gallery__img-wrap {
@@ -675,13 +679,13 @@ h6 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 380px;
-  height: 470px;
+  width: 38rem;
+  height: 47rem;
   transition-property: box-shadow, -webkit-transform;
   transition-property: box-shadow, transform;
   transition-property: box-shadow, transform, -webkit-transform;
   transition-duration: 200ms;
-  margin-bottom: 30px;
+  margin-bottom: 3rem;
 }
 
 .gallery__img-wrap::after {
@@ -690,8 +694,8 @@ h6 {
   position: absolute;
   top: 0;
   left: 0;
-  width: 380px;
-  height: 470px;
+  width: 38rem;
+  height: 47rem;
   opacity: 0.9;
   z-index: 1;
 }
@@ -702,9 +706,9 @@ h6 {
 }
 
 .gallery__img-wrap:hover {
-  -webkit-transform: translate(-10px, -10px);
-  transform: translate(-10px, -10px);
-  box-shadow: 10px 10px #95e1d3;
+  -webkit-transform: translate(-1rem, -1rem);
+  transform: translate(-1rem, -1rem);
+  box-shadow: 1rem 1rem #95e1d3;
 }
 
 .gallery__img-wrap:hover > .gallery__networks {
@@ -720,22 +724,22 @@ h6 {
   display: none;
   position: absolute;
   justify-content: center;
-  width: 225px;
-  height: 56px;
+  width: 22.5rem;
+  height: 5.6rem;
   z-index: 2;
 }
 
 .gallery__svg {
   display: block;
-  width: 32px;
-  height: 32px;
+  width: 3.2rem;
+  height: 3.2rem;
   fill: #f38181;
 }
 
 .gallery__network-item {
   display: flex;
-  width: 56px;
-  height: 56px;
+  width: 5.6rem;
+  height: 5.6rem;
   background-color: #fce38a;
   transition-property: background-color;
   transition-duration: 200ms;
@@ -762,18 +766,18 @@ h6 {
 
 .gallery__name {
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 400;
   color: #333333;
   line-height: 1.2;
   text-align: center;
   text-transform: uppercase;
-  margin-bottom: 8px;
+  margin-bottom: 0.8rem;
 }
 
 .gallery__specialty {
   font-family: "Roboto", sans-serif;
-  font-size: 15px;
+  font-size: 1.5rem;
   font-weight: 300;
   color: #999999;
   line-height: 1.6;
@@ -783,17 +787,17 @@ h6 {
 
 .footer {
   display: flex;
-  width: 1200px;
-  height: 63px;
+  width: 120rem;
+  height: 6.3rem;
   justify-content: space-between;
   align-items: center;
-  border-top: solid 1px #e5e5e5;
+  border-top: solid 0.1rem #e5e5e5;
   margin: 0 auto;
 }
 
 .footer__wrap {
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 400;
   color: #333333;
   line-height: 1.2;
@@ -802,7 +806,7 @@ h6 {
 
 .footer__link {
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 400;
   color: #f38181;
   line-height: 1.2;
@@ -813,7 +817,7 @@ h6 {
 .wrap-form {
   display: flex;
   flex-basis: 31.66%;
-  height: 40px;
+  height: 4rem;
   justify-content: space-between;
   align-items: center;
 }
@@ -833,9 +837,9 @@ input[type="text"] {
   border-right: 0;
   box-shadow: none;
   border-radius: 0;
-  padding-left: 10px;
+  padding-left: 1rem;
   font-family: "Roboto", sans-serif;
-  font-size: 15px;
+  font-size: 1.5rem;
   font-weight: 300;
   color: #cccccc;
   line-height: 1.6;
@@ -852,7 +856,7 @@ input[type="submit"] {
   cursor: pointer;
   border-radius: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 14px;
+  font-size: 1.4rem;
   font-weight: 700;
   color: #ffffff;
   line-height: 1.2;

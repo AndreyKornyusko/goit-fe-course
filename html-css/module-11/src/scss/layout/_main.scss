@@ -1,15 +1,15 @@
 .main {
-  width: 1200px;
+  width: rem(1200);
   margin: 0 auto;
 }
 
 .section {
-  margin-bottom: 80px;
+  margin-bottom: rem(80);
   margin: 0 auto;
 }
 
 .section--big-padd {
-  padding-bottom: 85px;
+  padding-bottom: rem(85);
 }
 
 .section__name {
@@ -17,26 +17,26 @@
   margin: 0 auto;
   @include text-property(
     $title-decor-font,
-    24px,
+    rem(24),
     400,
     $title-text-color,
     1.2,
     center
   );
-  margin-bottom: 16px;
+  margin-bottom: rem(16);
 }
 
 .section__title {
-  height: 30px;
-  @include text-property($title-font, 30px, 700, $title-text-color, 1, center);
+  height: rem(30);
+  @include text-property($title-font, rem(30), 700, $title-text-color, 1, center);
   text-transform: uppercase;
-  margin-bottom: 90px;
+  margin-bottom: rem(90);
   &::after {
     content: "";
     display: block;
-    width: 60px;
-    margin: 40px auto;
-    border-bottom: 3px solid $text-decor-color;
+    width: rem(60);
+    margin: rem(40) auto;
+    border-bottom: rem(3) solid $text-decor-color;
   }
 }
 
@@ -46,46 +46,46 @@
   align-content: space-between;
   flex-wrap: wrap;
   padding-left: 0;
-  margin-bottom: 90px;
+  margin-bottom: rem(90);
 }
 
 .menu__item {
   display: flex;
-  flex-basis: 400px;
+  flex-basis: rem(400);
   align-items: flex-start;
   justify-content: space-between;
 }
 
 .menu__item--big-marg {
-  margin-bottom: 90px;
+  margin-bottom:rem(90);
 }
 
 .menu__icon {
   display: flex;
-  flex-basis: 80px;
+  flex-basis: rem(80);
   justify-content: center;
 }
 
 .menu__svg {
   display: block;
-  width: 32px;
-  height: 32px;
+  width: rem(32);
+  height: rem(32);
   fill: $main-icon-color;
 }
 
 .menu__title {
-  @include text-property($title-font, 14px, 400, $title-text-color, 1.2, left);
+  @include text-property($title-font, rem(14), 400, $title-text-color, 1.2, left);
   text-transform: uppercase;
   text-decoration: none;
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: rem(15);
 }
 
 .menu__text {
   width: 90%;
   @include text-property(
     $content-font,
-    15px,
+    rem(15),
     400,
     $content-text-color,
     1.6,
@@ -95,16 +95,16 @@
 }
 
 .menu__wrap {
-  padding-left: 10px;
+  padding-left: rem(10);
 }
 
 .section__text {
   display: block;
-  margin: 0 auto 95px auto;
+  margin: 0 auto rem(95) auto;
   width: 79.17%;
   @include text-property(
     $content-font,
-    15px,
+    rem(15),
     400,
     $content-text-color,
     1.6,
@@ -122,7 +122,7 @@
 .gallery__item {
   display: flex;
   flex-direction: column;
-  flex-basis: 380px;
+  flex-basis: rem(380);
 }
 
 .gallery__img-wrap {
@@ -130,19 +130,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 380px;
-  height: 470px;
+  width: rem(380);
+  height: rem(470);
   transition-property: box-shadow, transform;
   transition-duration: 200ms;
-  margin-bottom: 30px;
+  margin-bottom: rem(30);
   &::after {
     content: "";
     display: none;
     position: absolute;
     top: 0;
     left: 0;
-    width: 380px;
-    height: 470px;
+    width: rem(380);
+    height: rem(470);
     opacity: 0.9;
     z-index: 1;
   }
@@ -151,8 +151,8 @@
     background-image: linear-gradient(#f38181, #fce38a);
   }
   &:hover {
-    transform: translate(-10px, -10px);
-    box-shadow: 10px 10px $gallery-shadow-color;
+    transform: translate(rem(-10), rem(-10));
+    box-shadow: rem(10) rem(10) $gallery-shadow-color;
   }
   &:hover > .gallery__networks {
     display: flex;
@@ -168,22 +168,22 @@
   display: none;
   position: absolute;
   justify-content: center;
-  width: 225px;
-  height: 56px;
+  width: rem(225);
+  height: rem(56);
   z-index: 2;
 }
 
 .gallery__svg {
   display: block;
-  width: 32px;
-  height: 32px;
+  width: rem(32);
+  height: rem(32);
   fill: $gallery-icon-color;
 }
 
 .gallery__network-item {
   display: flex;
-  width: 56px;
-  height: 56px;
+  width: rem(56);
+  height: rem(56);
   background-color: $gallery-netw-backgr-color;
   transition-property: background-color;
   transition-duration: 200ms;
@@ -209,20 +209,20 @@
 .gallery__name {
   @include text-property(
     $title-font,
-    14px,
+    rem(14),
     400,
     $title-text-color,
     1.2,
     center
   );
   text-transform: uppercase;
-  margin-bottom: 8px;
+  margin-bottom: rem(8);
 }
 
 .gallery__specialty {
   @include text-property(
     $content-font,
-    15px,
+    rem(15),
     300,
     $content-text-color,
     1.6,

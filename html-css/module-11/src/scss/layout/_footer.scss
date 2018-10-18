@@ -1,21 +1,21 @@
 .footer {
   display: flex;
-  width: 1200px;
-  height: 63px;
+  width: rem(1200);
+  height: rem(63);
   justify-content: space-between;
   align-items: center;
-  border-top: solid 1px $footer-decor-color;
+  border-top: solid rem(1) $footer-decor-color;
   margin: 0 auto;
 }
 
 .footer__wrap {
-  @include text-property($title-font, 14px, 400, $title-text-color, 1.2, left);
+  @include text-property($title-font, rem(14), 400, $title-text-color, 1.2, left);
 }
 
 .footer__link {
   @include text-property(
     $title-font,
-    14px,
+    rem(14),
     400,
     $footer-link-text-color,
     1.2,
@@ -27,7 +27,7 @@
 .wrap-form {
   display: flex;
   flex-basis: 31.66%;
-  height: 40px;
+  height: rem(40);
   justify-content: space-between;
   align-items: center;
 }
@@ -47,8 +47,8 @@ input[type="text"] {
   border-right: 0;
   box-shadow: none;
   border-radius: 0;
-  padding-left: 10px;
-  @include text-property($content-font, 15px, 300, $form-text-color, 1.6, left);
+  padding-left: rem(10);
+  @include text-property($content-font, rem(15), 300, $form-text-color, 1.6, left);
   font-style: italic;
 }
 
@@ -62,7 +62,7 @@ input[type="submit"] {
   border-radius: 0;
   @include text-property(
     $button-font,
-    14px,
+    rem(14),
     700,
     $text-button-color,
     1.2,

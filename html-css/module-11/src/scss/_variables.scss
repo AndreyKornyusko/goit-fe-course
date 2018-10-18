@@ -1,3 +1,13 @@
+// 1rem = 10px
+:root {
+  font-size: 62.5%;
+}
+
+$remWidth: 1rem;
+@function rem($n) {
+  @return $n / 10 * $remWidth;
+}
+
 $main-start-grad-color: #f38181;
 $main-finish-grad-color: #fce38a;
 $main-head-text-color: #ffffff;
