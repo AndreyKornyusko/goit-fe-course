@@ -403,30 +403,19 @@ h6 {
 
 .head-wrapper {
   position: relative;
-  width: 192rem;
-  height: 100rem;
+  max-width: 192rem;
+  width: 100%;
   margin: 0 auto;
-  background-image: url(../img/eagle.jpg);
+  background-image: linear-gradient(rgba(243, 129, 129, 0.9), rgba(252, 227, 138, 0.9)), url(../img/eagle.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  margin-bottom: 5rem;
-}
-
-.head-wrapper::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 192rem;
-  height: 100rem;
-  background-image: linear-gradient(#f38181, #fce38a);
-  opacity: 0.9;
+  padding-top: 2.5rem;
+  padding-bottom: 23rem;
 }
 
 .wrap {
   width: 120rem;
   margin: 0 auto;
-  padding-top: 2.5rem;
 }
 
 .header__logo {
@@ -496,7 +485,6 @@ h6 {
 
 .head-section__button {
   display: block;
-  position: relative;
   width: 16rem;
   height: 4rem;
   margin: 0 auto;
@@ -515,7 +503,6 @@ h6 {
 
 .head-section__name {
   display: block;
-  position: relative;
   margin: 0 auto;
   font-family: "Kaushan Script";
   font-size: 7.2rem;
@@ -528,7 +515,6 @@ h6 {
 }
 
 .head-section__title {
-  position: relative;
   font-family: "Montserrat", sans-serif;
   font-size: 15rem;
   font-weight: 700;
@@ -543,13 +529,15 @@ h6 {
 }
 
 .main {
-  width: 192rem;
+  max-width: 192rem;
+  width: 100%;
   margin: 0 auto;
 }
 
 .section {
   width: 120rem;
   margin-bottom: 8rem;
+  padding-top: 4.5rem;
   margin: 0 auto;
 }
 
@@ -788,7 +776,8 @@ h6 {
 
 .footer {
   display: flex;
-  width: 192rem;
+  max-width: 192rem;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
   padding-bottom: 1.2rem;
@@ -869,9 +858,14 @@ input[type="submit"] {
   text-transform: uppercase;
 }
 
+input[type="submit"]:hover {
+  background-color: #b8e1e2;
+}
+
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .head-wrapper {
     background-image: url(../img/eagle@2x.jpg);
+    background-position: center;
     background-repeat: no-repeat;
   }
 }
