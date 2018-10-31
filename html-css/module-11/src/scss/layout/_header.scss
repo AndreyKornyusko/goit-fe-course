@@ -1,3 +1,7 @@
+html {
+  font-size: 1.6rem;
+}
+
 .main-wrapper {
   max-width: rem(1920);
   width: 100%;
@@ -27,7 +31,8 @@
 }
 
 .wrap {
-  width: rem(1200);
+  // width: rem(1200);
+  width: 62.5%;
   margin: 0 auto;
 }
 
@@ -41,7 +46,6 @@
 
 .header__logo {
   display: block;
-  position: relative;
   @include text-property(
     $logo-font,
     rem(30),
@@ -52,7 +56,6 @@
   );
   text-decoration: none;
   padding-bottom: rem(15);
-  z-index: 2;
 }
 
 .header__nav {
@@ -74,7 +77,6 @@
 
 .header__link {
   display: block;
-  position: relative;
   @include text-property(
     $nav-font,
     rem(14),
@@ -87,7 +89,6 @@
   text-decoration: none;
   padding-bottom: rem(15);
   border-bottom: solid rem(3) transparent;
-  z-index: 2;
   &--hover:hover {
     color: $nav-hover-text-color;
     border-bottom: solid rem(3) $nav-hover-text-color;
@@ -96,11 +97,9 @@
 
 .header__svg {
   display: block;
-  position: relative;
   width: rem(15);
   height: rem(16);
   fill: $main-head-text-color;
-  z-index: 2;
   &--hover:hover {
     fill: $nav-hover-text-color;
   }
@@ -123,7 +122,6 @@
   text-transform: uppercase;
   text-decoration: none;
   border: rem(3) solid $bord-button-color;
-  z-index: 2;
 }
 
 .head-section__name {
@@ -138,7 +136,6 @@
     center
   );
   margin-bottom: rem(20);
-  z-index: 2;
 }
 
 .head-section__title {
@@ -154,5 +151,4 @@
   margin-top: 0;
   margin-bottom: rem(105);
   padding: 0 rem(160);
-  z-index: 2;
 }

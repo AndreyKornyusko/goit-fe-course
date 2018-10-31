@@ -388,6 +388,10 @@ h6 {
   font-size: 62.5%;
 }
 
+html {
+  font-size: 1.6rem;
+}
+
 .main-wrapper {
   max-width: 192rem;
   width: 100%;
@@ -413,13 +417,12 @@ h6 {
 }
 
 .wrap {
-  width: 120rem;
+  width: 62.5%;
   margin: 0 auto;
 }
 
 .header__logo {
   display: block;
-  position: relative;
   font-family: "Montserrat", sans-serif;
   font-size: 3rem;
   font-weight: 700;
@@ -428,7 +431,6 @@ h6 {
   text-align: left;
   text-decoration: none;
   padding-bottom: 1.5rem;
-  z-index: 2;
 }
 
 .header__nav {
@@ -450,7 +452,6 @@ h6 {
 
 .header__link {
   display: block;
-  position: relative;
   font-family: "Montserrat", sans-serif;
   font-size: 1.4rem;
   font-weight: 400;
@@ -461,7 +462,6 @@ h6 {
   text-decoration: none;
   padding-bottom: 1.5rem;
   border-bottom: solid 0.3rem transparent;
-  z-index: 2;
 }
 
 .header__link--hover:hover {
@@ -471,11 +471,9 @@ h6 {
 
 .header__svg {
   display: block;
-  position: relative;
   width: 1.5rem;
   height: 1.6rem;
   fill: #ffffff;
-  z-index: 2;
 }
 
 .header__svg--hover:hover {
@@ -497,7 +495,6 @@ h6 {
   text-transform: uppercase;
   text-decoration: none;
   border: 0.3rem solid #ffffff;
-  z-index: 2;
 }
 
 .head-section__name {
@@ -510,7 +507,6 @@ h6 {
   line-height: 1.2;
   text-align: center;
   margin-bottom: 2rem;
-  z-index: 2;
 }
 
 .head-section__title {
@@ -524,7 +520,6 @@ h6 {
   margin-top: 0;
   margin-bottom: 10.5rem;
   padding: 0 16rem;
-  z-index: 2;
 }
 
 .main {
