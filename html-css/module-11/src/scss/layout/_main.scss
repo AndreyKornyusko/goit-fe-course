@@ -195,6 +195,7 @@
   border-right: solid 1px $gallery-netw-hov-backgr-color;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
   &:hover .gallery__svg {
     fill: $gallery-hov-icon-color;
   }

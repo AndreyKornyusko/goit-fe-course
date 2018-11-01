@@ -39,6 +39,7 @@
 }
 
 .wrap-form form {
+  position: relative;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -47,20 +48,25 @@
 }
 
 input[type="text"] {
-  width: 60%;
+  width: 100%;
   height: 100%;
   border: solid 1px $form-border-color;
+  // text-align: left;
   border-right: 0;
   box-shadow: none;
   border-radius: 0;
+  padding-right: rem(155);
   padding-left: rem(10);
   @include text-property($content-font, rem(15), 300, $form-text-color, 1.6, left);
   font-style: italic;
 }
 
 input[type="submit"] {
-  width: 40%;
-  height: 110%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: rem(150);
+  height: rem(40);
   background-color: $bg-button-color;
   box-shadow: none;
   border: 0;
