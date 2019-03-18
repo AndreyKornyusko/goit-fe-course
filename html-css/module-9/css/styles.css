@@ -1,5 +1,5 @@
 @import "fonts.css";
-/* @import "reset.css"; */
+@import "reset.css";
 
 @import "mobile.css";
 @import "tablet.css";
