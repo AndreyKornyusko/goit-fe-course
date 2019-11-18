@@ -162,15 +162,15 @@
   margin: 0px;
 }
 
-.product:hover > .name {
+.product:hover  .name {
   background-color: rgb(26, 188, 156);
 }
 
-.product:hover > .price {
+.product:hover  .price {
   background-color: rgb(127, 217, 199);
 }
 
-.product:hover > .arrow {
+.product:hover  .arrow {
   display: block;
 }
 
